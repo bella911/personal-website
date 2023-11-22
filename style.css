@@ -146,6 +146,7 @@ marquee{
 #project{
     width: 900px;
     margin: 50px auto;
+    padding-left: 20px;
 }
 
 .project-title-header{
