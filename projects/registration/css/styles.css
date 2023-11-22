@@ -1,0 +1,72 @@
+body{
+  background-color: #1b1b32;
+  color: white;
+  font-family: tahoma;
+  font-size: 16px;
+}
+
+a{
+  color: white;
+}
+
+hr{
+  width: 10%;
+  border: dotted 3px grey;
+  border-bottom: 0;
+  margin: 2.5rem auto;
+}
+
+h1, p{
+  text-align: center;
+}
+
+label{
+  display: block;
+  margin-top: 10px;
+}
+
+textarea{
+  margin-top: 10px;
+  background-color: #0a0a23;
+  color: white;
+  border: 0px;
+}
+
+.identification input, .other input{
+  width: 100%;
+  background-color: #0a0a23;
+  color: white;
+  height: 1.7rem;
+  margin-top: 10px;
+  border:  0px;
+}
+
+ select{
+  height: 1.7rem;
+  margin-top: 10px;
+}
+
+
+form{
+  padding: 20px;
+  width: 70%;
+  min-width: 300px;
+  max-width: 500px;
+  margin: 0px auto;
+}
+
+
+.account-type label{
+  display: block;
+}
+
+button{
+  display: block;
+  width: 50%;
+  margin: 2rem auto  ;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  background-color: #3b3b4f;
+}

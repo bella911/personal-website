@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title></title>
+  </head>
+  <body>
+    <!-- main div package of all div-->
+      <h1>Registration Form</h1>
+      <p>Please fill out this form with the required information</p>
+      <form action="mailto:abelon.gezahegn2@gmail.com" method="post" enctype="text/plain">
+      <!-- for personal info-->
+      <div class="identification">
+        <label for="">Enter Your First Name: <input type="text" name="first-name" required></label>
+        <label for="">Enter Your Last Name: <input type="text" name="last-name" required></label>
+        <label for="">Enter Your Email: <input type="email" name="email" required></label>
+        <label for="">Create a New password: <input type="password" name="password"  required></label>
+
+      </div>
+      <hr>
+      <!-- account -->
+      <div class="account-type">
+        <label for=""><input class="account" type="radio" name="account-type" value="personal account" checked> Personal Account</label>
+        <label for=""><input class="account" type="radio" name="account-type" value="Business account"> Business Account</label>
+        <label for=""><input class="account" type="checkbox" name="terms-and-conditions" required> I accept the <a href="#">terms and conditions</a></label>
+
+      </div>
+      <hr>
+      <!-- other -->
+      <div class="other">
+        <label for="">Upload a profile picture:<input type="file" name="file" ></label>
+        <label for="">Input your age (years):<input type="number" name="age" min="13" max="120"></label>
+        <label for="">How did you hear about us?</label>
+        <select name="referrer">
+          <option value="">(select one)</option>
+          <option value="1">bellaCamp News</option>
+          <option value="2">bellaCamp YouTube channel</option>
+          <option value="3">bellaCamp Forum</option>
+          <option value="4">Other</option>
+        </select>
+        <label for="">Provide a bio: <textarea name="bio" rows="3" cols="65"></textarea></label>
+
+      </div>
+      <button type="submit" >Submit</button>
+      </form>
+  </body>
+</html>

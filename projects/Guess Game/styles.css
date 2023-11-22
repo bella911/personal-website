@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    color: white;
+    margin: 0 auto;
+}
+
+@media (min-width: 500px){ body{ width: 90%; } }
+@media (min-width: 600px){ body{ width: 80%; } }
+@media (min-width: 700px){ body{ width: 70%; } }
+@media (min-width: 800px){ body{ width: 60%; } }
+@media (min-width: 900px){ body{ width: 50%; } }
+
+
+.again, .secret, #guessNumber, .check{
+    font-weight: bold;
+    text-align: center;
+}
+
+.again{
+    float: left;
+    width: 80px;
+    height: 30px;
+}
+
+.head p{
+    text-align: end;
+}
+
+.head h1{
+    text-align: center;
+}
+
+fieldset{
+    border: 3px solid;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.secret{
+    width: 80px;
+    height: 40px;
+    background: white;
+    color: black;
+    font-size: 2rem;
+}
+
+.left{
+    float: left;
+}
+
+#guessNumber{
+    width: 120px;
+    height: 60px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    border: solid gray;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 2.5rem;
+}
+
+.check{
+    margin-left: 45px;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.right{
+    margin-left: 300px;
+}
+
+.message{
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.score-high-score-message{
+    margin: 0;
+}
+
+.head{
+    margin-bottom: 1.5rem;
+}
