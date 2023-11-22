@@ -177,12 +177,12 @@ marquee{
     opacity: 0.8;
 }
 
-/* .download{
+.download{
     position: relative;
     width: 40px;
-    right: 60px;
-    bottom: 20px;
-} */
+    left: 370px;
+    bottom: 80px;
+}
 
 
 #footer{
